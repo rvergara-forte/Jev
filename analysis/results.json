@@ -1,0 +1,2624 @@
+[
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2005 to end of 2007",
+    "aum_start_usd_bn": 453,
+    "aum_end_usd_bn": 1357,
+    "aum_change_pct": 199.6,
+    "annualized_change_pct": 73.1,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts."
+    ],
+    "_y0": 2005,
+    "_y1": 2007,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "firm_specific",
+        "confidence": 0.48,
+        "probabilities": {
+          "events_drove_growth": 0.04,
+          "events_drove_decline": 0.01,
+          "unclear": 0.19,
+          "firm_specific": 0.58,
+          "growth_despite_events": 0.18
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.66,
+        "probabilities": {
+          "market_valuation": 0.71,
+          "passive_flows": 0.14,
+          "acquisition": 0.13,
+          "flight_to_safety_outflows": 0.02,
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 0.87,
+        "confidence": 0.39,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.37,
+          "1": 0.46,
+          "2": 0.1,
+          "3": 0.07
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.56
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2007 to end of 2008",
+    "aum_start_usd_bn": 1357,
+    "aum_end_usd_bn": 1307,
+    "aum_change_pct": -3.7,
+    "annualized_change_pct": -3.7,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield."
+    ],
+    "_y0": 2007,
+    "_y1": 2008,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 0.99,
+        "probabilities": {
+          "growth_despite_events": 0.01,
+          "firm_specific": 0.0,
+          "unclear": 0.0,
+          "events_drove_decline": 0.99,
+          "events_drove_growth": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.99,
+        "probabilities": {
+          "market_valuation": 1.0,
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0,
+          "passive_flows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.43,
+        "confidence": 0.43,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.12,
+          "2": 0.32,
+          "3": 0.56
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.86
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2008 to end of 2009",
+    "aum_start_usd_bn": 1307,
+    "aum_end_usd_bn": 3346,
+    "aum_change_pct": 156.0,
+    "annualized_change_pct": 156.0,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "BlackRock acquires Barclays Global Investors (BGI) including iShares ETFs."
+    ],
+    "_y0": 2008,
+    "_y1": 2009,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "firm_specific",
+        "confidence": 0.33,
+        "probabilities": {
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.36,
+          "unclear": 0.01,
+          "growth_despite_events": 0.17,
+          "firm_specific": 0.46
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "acquisition",
+        "confidence": 0.95,
+        "probabilities": {
+          "passive_flows": 0.03,
+          "search_for_yield_alternatives": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 0.01,
+          "acquisition": 0.96
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.74,
+        "confidence": 0.74,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.13,
+          "3": 0.81
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.26
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2009 to end of 2010",
+    "aum_start_usd_bn": 3346,
+    "aum_end_usd_bn": 3561,
+    "aum_change_pct": 6.4,
+    "annualized_change_pct": 6.4,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "Dodd-Frank Act in the US; Volcker rule limits banks' proprietary trading and fund ownership."
+    ],
+    "_y0": 2009,
+    "_y1": 2010,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.42,
+        "probabilities": {
+          "unclear": 0.04,
+          "events_drove_growth": 0.54,
+          "growth_despite_events": 0.39,
+          "firm_specific": 0.03,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.51,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.06,
+          "market_valuation": 0.6,
+          "passive_flows": 0.34,
+          "acquisition": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.51,
+        "confidence": 0.45,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.49,
+          "2": 0.46,
+          "3": 0.03
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.64
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2010 to end of 2011",
+    "aum_start_usd_bn": 3561,
+    "aum_end_usd_bn": 3513,
+    "aum_change_pct": -1.3,
+    "annualized_change_pct": -1.3,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "US credit rating downgrade by S&P; sharp market sell-off in August."
+    ],
+    "_y0": 2010,
+    "_y1": 2011,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 0.91,
+        "probabilities": {
+          "firm_specific": 0.01,
+          "growth_despite_events": 0.01,
+          "unclear": 0.05,
+          "events_drove_decline": 0.93,
+          "events_drove_growth": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.92,
+        "probabilities": {
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.01,
+          "market_valuation": 0.9299999999999999,
+          "passive_flows": 0.01,
+          "flight_to_safety_outflows": 0.05,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.7,
+        "confidence": 0.53,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.35,
+          "2": 0.55,
+          "3": 0.09
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.81
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2011 to end of 2012",
+    "aum_start_usd_bn": 3513,
+    "aum_end_usd_bn": 3792,
+    "aum_change_pct": 7.9,
+    "annualized_change_pct": 7.9,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012."
+    ],
+    "_y0": 2011,
+    "_y1": 2012,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.45,
+        "probabilities": {
+          "firm_specific": 0.01,
+          "growth_despite_events": 0.4,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.56,
+          "unclear": 0.03
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.33,
+        "probabilities": {
+          "passive_flows": 0.45,
+          "search_for_yield_alternatives": 0.12,
+          "market_valuation": 0.43,
+          "acquisition": 0.0,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.72,
+        "confidence": 0.57,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.33,
+          "2": 0.58,
+          "3": 0.08
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.63
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2012 to end of 2013",
+    "aum_start_usd_bn": 3792,
+    "aum_end_usd_bn": 4324,
+    "aum_change_pct": 14.0,
+    "annualized_change_pct": 14.0,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield."
+    ],
+    "_y0": 2012,
+    "_y1": 2013,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.89,
+        "probabilities": {
+          "unclear": 0.05,
+          "growth_despite_events": 0.01,
+          "firm_specific": 0.04,
+          "events_drove_growth": 0.9,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.31,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 0.43,
+          "passive_flows": 0.41,
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.16
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.91,
+        "confidence": 0.53,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.26,
+          "2": 0.54,
+          "3": 0.19
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.57
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2013 to end of 2014",
+    "aum_start_usd_bn": 4324,
+    "aum_end_usd_bn": 4652,
+    "aum_change_pct": 7.6,
+    "annualized_change_pct": 7.6,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield."
+    ],
+    "_y0": 2013,
+    "_y1": 2014,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.72,
+        "probabilities": {
+          "events_drove_decline": 0.0,
+          "unclear": 0.14,
+          "firm_specific": 0.05,
+          "events_drove_growth": 0.78,
+          "growth_despite_events": 0.03
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.35,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.46,
+          "passive_flows": 0.37,
+          "search_for_yield_alternatives": 0.17,
+          "acquisition": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.63,
+        "confidence": 0.45,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.42,
+          "2": 0.47,
+          "3": 0.09
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.6
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2014 to end of 2015",
+    "aum_start_usd_bn": 4652,
+    "aum_end_usd_bn": 4645,
+    "aum_change_pct": -0.2,
+    "annualized_change_pct": -0.2,
+    "events": [
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016)."
+    ],
+    "_y0": 2014,
+    "_y1": 2015,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "unclear",
+        "confidence": 0.65,
+        "probabilities": {
+          "unclear": 0.71,
+          "firm_specific": 0.02,
+          "growth_despite_events": 0.01,
+          "events_drove_growth": 0.0,
+          "events_drove_decline": 0.26
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.96,
+        "probabilities": {
+          "passive_flows": 0.01,
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "flight_to_safety_outflows": 0.01,
+          "market_valuation": 0.98,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 0.79,
+        "confidence": 0.58,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.31,
+          "1": 0.6,
+          "2": 0.07,
+          "3": 0.02
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.81
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2015 to end of 2016",
+    "aum_start_usd_bn": 4645,
+    "aum_end_usd_bn": 5148,
+    "aum_change_pct": 10.8,
+    "annualized_change_pct": 10.8,
+    "events": [
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016)."
+    ],
+    "_y0": 2015,
+    "_y1": 2016,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.84,
+        "probabilities": {
+          "events_drove_growth": 0.05,
+          "unclear": 0.04,
+          "firm_specific": 0.05,
+          "growth_despite_events": 0.86,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.47,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 0.43,
+          "passive_flows": 0.5700000000000001
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.21,
+        "confidence": 0.57,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.11,
+          "1": 0.6,
+          "2": 0.25,
+          "3": 0.04
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.65
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2016 to end of 2017",
+    "aum_start_usd_bn": 5148,
+    "aum_end_usd_bn": 6288,
+    "aum_change_pct": 22.1,
+    "annualized_change_pct": 22.1,
+    "events": [
+      "Low-volatility global equity rally; US tax cuts passed in December."
+    ],
+    "_y0": 2016,
+    "_y1": 2017,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.98,
+        "probabilities": {
+          "events_drove_decline": 0.0,
+          "growth_despite_events": 0.0,
+          "events_drove_growth": 0.99,
+          "firm_specific": 0.0,
+          "unclear": 0.01
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.91,
+        "probabilities": {
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.93,
+          "passive_flows": 0.07,
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.01,
+        "confidence": 0.49,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.23,
+          "2": 0.5,
+          "3": 0.26
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.73
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2017 to end of 2018",
+    "aum_start_usd_bn": 6288,
+    "aum_end_usd_bn": 5976,
+    "aum_change_pct": -5.0,
+    "annualized_change_pct": -5.0,
+    "events": [
+      "Fed rate hikes and balance-sheet runoff; US-China trade war; Q4 equity sell-off."
+    ],
+    "_y0": 2017,
+    "_y1": 2018,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 0.99,
+        "probabilities": {
+          "firm_specific": 0.0,
+          "events_drove_growth": 0.0,
+          "events_drove_decline": 1.0,
+          "unclear": 0.0,
+          "growth_despite_events": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.99,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.01,
+          "search_for_yield_alternatives": 0.0,
+          "market_valuation": 0.99,
+          "acquisition": 0.0,
+          "passive_flows": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.4,
+        "confidence": 0.4,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.08,
+          "2": 0.43,
+          "3": 0.49
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.85
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2018 to end of 2019",
+    "aum_start_usd_bn": 5976,
+    "aum_end_usd_bn": 7430,
+    "aum_change_pct": 24.3,
+    "annualized_change_pct": 24.3,
+    "events": [
+      "Fed pivots to rate cuts; strong equity and bond rally."
+    ],
+    "_y0": 2018,
+    "_y1": 2019,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.99,
+        "probabilities": {
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 1.0,
+          "unclear": 0.0,
+          "firm_specific": 0.0,
+          "growth_despite_events": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.95,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "passive_flows": 0.04,
+          "market_valuation": 0.96,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.56,
+        "confidence": 0.56,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.08,
+          "2": 0.28,
+          "3": 0.63
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.77
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2019 to end of 2020",
+    "aum_start_usd_bn": 7430,
+    "aum_end_usd_bn": 8677,
+    "aum_change_pct": 16.8,
+    "annualized_change_pct": 16.8,
+    "events": [
+      "COVID-19 pandemic: market crash in March, then massive fiscal stimulus and Fed QE drive a fast recovery."
+    ],
+    "_y0": 2019,
+    "_y1": 2020,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.95,
+        "probabilities": {
+          "firm_specific": 0.0,
+          "growth_despite_events": 0.04,
+          "events_drove_decline": 0.0,
+          "unclear": 0.0,
+          "events_drove_growth": 0.96
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.64,
+        "probabilities": {
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "market_valuation": 0.7,
+          "passive_flows": 0.3,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.76,
+        "confidence": 0.76,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.16,
+          "3": 0.81
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.69
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2020 to end of 2021",
+    "aum_start_usd_bn": 8677,
+    "aum_end_usd_bn": 10010,
+    "aum_change_pct": 15.4,
+    "annualized_change_pct": 15.4,
+    "events": [
+      "Stimulus-fueled boom: record equity highs, retail investing surge, record private-market fundraising."
+    ],
+    "_y0": 2020,
+    "_y1": 2021,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 1.0,
+        "probabilities": {
+          "growth_despite_events": 0.0,
+          "events_drove_growth": 1.0,
+          "unclear": 0.0,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.75,
+        "probabilities": {
+          "regulation": 0.0,
+          "acquisition": 0.0,
+          "passive_flows": 0.21,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.79,
+          "search_for_yield_alternatives": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.88,
+        "confidence": 0.88,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.09,
+          "3": 0.9
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.74
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2021 to end of 2022",
+    "aum_start_usd_bn": 10010,
+    "aum_end_usd_bn": 8594,
+    "aum_change_pct": -14.1,
+    "annualized_change_pct": -14.1,
+    "events": [
+      "Inflation surge, fastest Fed hiking cycle in decades, Russia invades Ukraine; stocks and bonds fall together."
+    ],
+    "_y0": 2021,
+    "_y1": 2022,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 1.0,
+        "probabilities": {
+          "firm_specific": 0.0,
+          "events_drove_growth": 0.0,
+          "unclear": 0.0,
+          "growth_despite_events": 0.0,
+          "events_drove_decline": 1.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 1.0,
+        "probabilities": {
+          "regulation": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "market_valuation": 1.0,
+          "passive_flows": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.88,
+        "confidence": 0.88,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.09,
+          "3": 0.89
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.88
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2022 to end of 2023",
+    "aum_start_usd_bn": 8594,
+    "aum_end_usd_bn": 10009,
+    "aum_change_pct": 16.5,
+    "annualized_change_pct": 16.5,
+    "events": [
+      "US regional bank failures (SVB, March); AI-driven tech rally; rates stay high."
+    ],
+    "_y0": 2022,
+    "_y1": 2023,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.64,
+        "probabilities": {
+          "firm_specific": 0.01,
+          "unclear": 0.02,
+          "events_drove_decline": 0.0,
+          "growth_despite_events": 0.25,
+          "events_drove_growth": 0.72
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.89,
+        "probabilities": {
+          "regulation": 0.0,
+          "market_valuation": 0.91,
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "passive_flows": 0.09,
+          "acquisition": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.87,
+        "confidence": 0.59,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.25,
+          "2": 0.6,
+          "3": 0.14
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.72
+      }
+    }
+  },
+  {
+    "firm": "BlackRock",
+    "firm_profile": "World's largest asset manager; dominated by index funds and iShares ETFs; grew partly through acquisitions (MLIM 2006, BGI/iShares 2009).",
+    "period": "end of 2023 to end of 2024",
+    "aum_start_usd_bn": 10009,
+    "aum_end_usd_bn": 11551,
+    "aum_change_pct": 15.4,
+    "annualized_change_pct": 15.4,
+    "events": [
+      "Fed begins cutting rates; equity rally led by large tech; US presidential election."
+    ],
+    "_y0": 2023,
+    "_y1": 2024,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.99,
+        "probabilities": {
+          "events_drove_growth": 1.0,
+          "events_drove_decline": 0.0,
+          "unclear": 0.0,
+          "firm_specific": 0.0,
+          "growth_despite_events": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.98,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.98,
+          "passive_flows": 0.02,
+          "acquisition": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.56,
+        "confidence": 0.56,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.33,
+          "3": 0.62
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.79
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2005 to end of 2010",
+    "aum_start_usd_bn": 1000,
+    "aum_end_usd_bn": 1600,
+    "aum_change_pct": 60.0,
+    "annualized_change_pct": 9.9,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "BlackRock acquires Barclays Global Investors (BGI) including iShares ETFs.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "Dodd-Frank Act in the US; Volcker rule limits banks' proprietary trading and fund ownership."
+    ],
+    "_y0": 2005,
+    "_y1": 2010,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.58,
+        "probabilities": {
+          "unclear": 0.0,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.29,
+          "firm_specific": 0.04,
+          "growth_despite_events": 0.67
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.99,
+        "probabilities": {
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "passive_flows": 0.99,
+          "market_valuation": 0.01
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.47,
+        "confidence": 0.47,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.08,
+          "2": 0.35,
+          "3": 0.56
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.19
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2010 to end of 2015",
+    "aum_start_usd_bn": 1600,
+    "aum_end_usd_bn": 3400,
+    "aum_change_pct": 112.5,
+    "annualized_change_pct": 16.3,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "US credit rating downgrade by S&P; sharp market sell-off in August.",
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016)."
+    ],
+    "_y0": 2010,
+    "_y1": 2015,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.36,
+        "probabilities": {
+          "growth_despite_events": 0.39,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.11,
+          "unclear": 0.01,
+          "events_drove_growth": 0.49
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.94,
+        "probabilities": {
+          "passive_flows": 0.95,
+          "market_valuation": 0.04,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.01,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.95,
+        "confidence": 0.51,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.24,
+          "2": 0.52,
+          "3": 0.22
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.16
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2015 to end of 2017",
+    "aum_start_usd_bn": 3400,
+    "aum_end_usd_bn": 4900,
+    "aum_change_pct": 44.1,
+    "annualized_change_pct": 20.0,
+    "events": [
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016).",
+      "Low-volatility global equity rally; US tax cuts passed in December."
+    ],
+    "_y0": 2015,
+    "_y1": 2017,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.49,
+        "probabilities": {
+          "firm_specific": 0.22,
+          "unclear": 0.02,
+          "growth_despite_events": 0.59,
+          "events_drove_growth": 0.17,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.9,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0,
+          "acquisition": 0.0,
+          "passive_flows": 0.92,
+          "market_valuation": 0.08
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.54,
+        "confidence": 0.36,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.05,
+          "1": 0.45,
+          "2": 0.41,
+          "3": 0.09
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.17
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2017 to end of 2018",
+    "aum_start_usd_bn": 4900,
+    "aum_end_usd_bn": 5000,
+    "aum_change_pct": 2.0,
+    "annualized_change_pct": 2.0,
+    "events": [
+      "Fed rate hikes and balance-sheet runoff; US-China trade war; Q4 equity sell-off."
+    ],
+    "_y0": 2017,
+    "_y1": 2018,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.96,
+        "probabilities": {
+          "events_drove_decline": 0.0,
+          "growth_despite_events": 0.97,
+          "firm_specific": 0.02,
+          "events_drove_growth": 0.01,
+          "unclear": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.77,
+        "probabilities": {
+          "acquisition": 0.0,
+          "market_valuation": 0.19,
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "passive_flows": 0.81,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.48,
+        "confidence": 0.36,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.08,
+          "1": 0.5,
+          "2": 0.28,
+          "3": 0.14
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.28
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2018 to end of 2019",
+    "aum_start_usd_bn": 5000,
+    "aum_end_usd_bn": 6200,
+    "aum_change_pct": 24.0,
+    "annualized_change_pct": 24.0,
+    "events": [
+      "Fed pivots to rate cuts; strong equity and bond rally."
+    ],
+    "_y0": 2018,
+    "_y1": 2019,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.88,
+        "probabilities": {
+          "firm_specific": 0.07,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.91,
+          "unclear": 0.02,
+          "growth_despite_events": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.68,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 0.73,
+          "passive_flows": 0.27,
+          "search_for_yield_alternatives": 0.0,
+          "acquisition": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.34,
+        "confidence": 0.34,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.14,
+          "2": 0.36,
+          "3": 0.49
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.47
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2019 to end of 2020",
+    "aum_start_usd_bn": 6200,
+    "aum_end_usd_bn": 7100,
+    "aum_change_pct": 14.5,
+    "annualized_change_pct": 14.5,
+    "events": [
+      "COVID-19 pandemic: market crash in March, then massive fiscal stimulus and Fed QE drive a fast recovery."
+    ],
+    "_y0": 2019,
+    "_y1": 2020,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.87,
+        "probabilities": {
+          "growth_despite_events": 0.07,
+          "unclear": 0.0,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.03,
+          "events_drove_growth": 0.9
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.81,
+        "probabilities": {
+          "passive_flows": 0.84,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "acquisition": 0.0,
+          "market_valuation": 0.16
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.58,
+        "confidence": 0.58,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.08,
+          "2": 0.25,
+          "3": 0.66
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.31
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2020 to end of 2021",
+    "aum_start_usd_bn": 7100,
+    "aum_end_usd_bn": 8500,
+    "aum_change_pct": 19.7,
+    "annualized_change_pct": 19.7,
+    "events": [
+      "Stimulus-fueled boom: record equity highs, retail investing surge, record private-market fundraising."
+    ],
+    "_y0": 2020,
+    "_y1": 2021,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.99,
+        "probabilities": {
+          "growth_despite_events": 0.0,
+          "unclear": 0.0,
+          "firm_specific": 0.01,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.99
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.88,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "passive_flows": 0.9,
+          "acquisition": 0.0,
+          "market_valuation": 0.1,
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.65,
+        "confidence": 0.65,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.07,
+          "2": 0.2,
+          "3": 0.72
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.3
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2021 to end of 2022",
+    "aum_start_usd_bn": 8500,
+    "aum_end_usd_bn": 7200,
+    "aum_change_pct": -15.3,
+    "annualized_change_pct": -15.3,
+    "events": [
+      "Inflation surge, fastest Fed hiking cycle in decades, Russia invades Ukraine; stocks and bonds fall together."
+    ],
+    "_y0": 2021,
+    "_y1": 2022,
+    "model": "jev-1.13.0",
+    "answers": {
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 1.0,
+        "probabilities": {
+          "market_valuation": 1.0,
+          "passive_flows": 0.0,
+          "regulation": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.79,
+        "confidence": 0.79,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.13,
+          "3": 0.83
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.9
+      },
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 0.99,
+        "probabilities": {
+          "growth_despite_events": 0.0,
+          "unclear": 0.0,
+          "events_drove_growth": 0.0,
+          "events_drove_decline": 1.0,
+          "firm_specific": 0.0
+        }
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2022 to end of 2023",
+    "aum_start_usd_bn": 7200,
+    "aum_end_usd_bn": 8600,
+    "aum_change_pct": 19.4,
+    "annualized_change_pct": 19.4,
+    "events": [
+      "US regional bank failures (SVB, March); AI-driven tech rally; rates stay high."
+    ],
+    "_y0": 2022,
+    "_y1": 2023,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.32,
+        "probabilities": {
+          "events_drove_growth": 0.25,
+          "unclear": 0.04,
+          "firm_specific": 0.25,
+          "growth_despite_events": 0.46,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.86,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 0.11,
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "passive_flows": 0.89
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.61,
+        "confidence": 0.42,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.4,
+          "2": 0.46,
+          "3": 0.1
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.18
+      }
+    }
+  },
+  {
+    "firm": "Vanguard",
+    "firm_profile": "Client-owned manager focused on low-cost index mutual funds and ETFs; grows almost entirely organically through net inflows.",
+    "period": "end of 2023 to end of 2024",
+    "aum_start_usd_bn": 8600,
+    "aum_end_usd_bn": 10000,
+    "aum_change_pct": 16.3,
+    "annualized_change_pct": 16.3,
+    "events": [
+      "Fed begins cutting rates; equity rally led by large tech; US presidential election."
+    ],
+    "_y0": 2023,
+    "_y1": 2024,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.9,
+        "probabilities": {
+          "growth_despite_events": 0.0,
+          "unclear": 0.03,
+          "firm_specific": 0.06,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.91
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.44,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "acquisition": 0.0,
+          "market_valuation": 0.54,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "passive_flows": 0.46
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.0,
+        "confidence": 0.52,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.22,
+          "2": 0.53,
+          "3": 0.24
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.41
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2007 to end of 2008",
+    "aum_start_usd_bn": 1980,
+    "aum_end_usd_bn": 1440,
+    "aum_change_pct": -27.3,
+    "annualized_change_pct": -27.3,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield."
+    ],
+    "_y0": 2007,
+    "_y1": 2008,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 1.0,
+        "probabilities": {
+          "firm_specific": 0.0,
+          "events_drove_growth": 0.0,
+          "unclear": 0.0,
+          "events_drove_decline": 1.0,
+          "growth_despite_events": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 1.0,
+        "probabilities": {
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "passive_flows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "market_valuation": 1.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.97,
+        "confidence": 0.97,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.98
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.89
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2008 to end of 2015",
+    "aum_start_usd_bn": 1440,
+    "aum_end_usd_bn": 2245,
+    "aum_change_pct": 55.9,
+    "annualized_change_pct": 6.5,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "BlackRock acquires Barclays Global Investors (BGI) including iShares ETFs.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "Dodd-Frank Act in the US; Volcker rule limits banks' proprietary trading and fund ownership.",
+      "US credit rating downgrade by S&P; sharp market sell-off in August.",
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016)."
+    ],
+    "_y0": 2008,
+    "_y1": 2015,
+    "model": "jev-1.13.0",
+    "answers": {
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.54
+      },
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.6,
+        "probabilities": {
+          "growth_despite_events": 0.67,
+          "events_drove_growth": 0.31,
+          "unclear": 0.01,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.01
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.64,
+        "probabilities": {
+          "regulation": 0.0,
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "passive_flows": 0.71,
+          "market_valuation": 0.29,
+          "search_for_yield_alternatives": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.96,
+        "confidence": 0.59,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.19,
+          "2": 0.6,
+          "3": 0.19
+        }
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2015 to end of 2021",
+    "aum_start_usd_bn": 2245,
+    "aum_end_usd_bn": 4140,
+    "aum_change_pct": 84.4,
+    "annualized_change_pct": 10.7,
+    "events": [
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016).",
+      "Low-volatility global equity rally; US tax cuts passed in December.",
+      "Fed rate hikes and balance-sheet runoff; US-China trade war; Q4 equity sell-off.",
+      "Fed pivots to rate cuts; strong equity and bond rally.",
+      "COVID-19 pandemic: market crash in March, then massive fiscal stimulus and Fed QE drive a fast recovery.",
+      "Stimulus-fueled boom: record equity highs, retail investing surge, record private-market fundraising."
+    ],
+    "_y0": 2015,
+    "_y1": 2021,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.62,
+        "probabilities": {
+          "events_drove_growth": 0.7,
+          "firm_specific": 0.01,
+          "growth_despite_events": 0.28,
+          "unclear": 0.01,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "passive_flows",
+        "confidence": 0.5,
+        "probabilities": {
+          "passive_flows": 0.58,
+          "search_for_yield_alternatives": 0.0,
+          "market_valuation": 0.42,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.29,
+        "confidence": 0.43,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.12,
+          "2": 0.44,
+          "3": 0.43
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.57
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2021 to end of 2022",
+    "aum_start_usd_bn": 4140,
+    "aum_end_usd_bn": 3500,
+    "aum_change_pct": -15.5,
+    "annualized_change_pct": -15.5,
+    "events": [
+      "Inflation surge, fastest Fed hiking cycle in decades, Russia invades Ukraine; stocks and bonds fall together."
+    ],
+    "_y0": 2021,
+    "_y1": 2022,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_decline",
+        "confidence": 1.0,
+        "probabilities": {
+          "firm_specific": 0.0,
+          "events_drove_growth": 0.0,
+          "growth_despite_events": 0.0,
+          "unclear": 0.0,
+          "events_drove_decline": 1.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 1.0,
+        "probabilities": {
+          "flight_to_safety_outflows": 0.0,
+          "search_for_yield_alternatives": 0.0,
+          "passive_flows": 0.0,
+          "acquisition": 0.0,
+          "regulation": 0.0,
+          "market_valuation": 1.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.86,
+        "confidence": 0.86,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.1,
+          "3": 0.88
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.87
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2022 to end of 2023",
+    "aum_start_usd_bn": 3500,
+    "aum_end_usd_bn": 4100,
+    "aum_change_pct": 17.1,
+    "annualized_change_pct": 17.1,
+    "events": [
+      "US regional bank failures (SVB, March); AI-driven tech rally; rates stay high."
+    ],
+    "_y0": 2022,
+    "_y1": 2023,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.63,
+        "probabilities": {
+          "events_drove_growth": 0.7,
+          "events_drove_decline": 0.0,
+          "growth_despite_events": 0.25,
+          "firm_specific": 0.01,
+          "unclear": 0.04
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.66,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.0,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.72,
+          "acquisition": 0.0,
+          "passive_flows": 0.28
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.73,
+        "confidence": 0.55,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.33,
+          "2": 0.56,
+          "3": 0.09
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.68
+      }
+    }
+  },
+  {
+    "firm": "State Street Global Advisors",
+    "firm_profile": "Asset management arm of State Street bank; large institutional index business and SPDR ETFs (including SPY).",
+    "period": "end of 2023 to end of 2024",
+    "aum_start_usd_bn": 4100,
+    "aum_end_usd_bn": 4700,
+    "aum_change_pct": 14.6,
+    "annualized_change_pct": 14.6,
+    "events": [
+      "Fed begins cutting rates; equity rally led by large tech; US presidential election."
+    ],
+    "_y0": 2023,
+    "_y1": 2024,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 1.0,
+        "probabilities": {
+          "unclear": 0.0,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 1.0,
+          "growth_despite_events": 0.0,
+          "firm_specific": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.93,
+        "probabilities": {
+          "passive_flows": 0.06,
+          "search_for_yield_alternatives": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.94,
+          "acquisition": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.51,
+        "confidence": 0.51,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.37,
+          "3": 0.58
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.76
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2007 to end of 2010",
+    "aum_start_usd_bn": 102.4,
+    "aum_end_usd_bn": 128.1,
+    "aum_change_pct": 25.1,
+    "annualized_change_pct": 7.7,
+    "events": [
+      "Global financial crisis: US subprime collapse, Lehman Brothers bankruptcy (Sep 2008), global equity crash, bank bailouts.",
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "BlackRock acquires Barclays Global Investors (BGI) including iShares ETFs.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "Dodd-Frank Act in the US; Volcker rule limits banks' proprietary trading and fund ownership."
+    ],
+    "_y0": 2007,
+    "_y1": 2010,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.6,
+        "probabilities": {
+          "firm_specific": 0.01,
+          "events_drove_growth": 0.31,
+          "events_drove_decline": 0.0,
+          "unclear": 0.0,
+          "growth_despite_events": 0.68
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 0.99,
+        "probabilities": {
+          "acquisition": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0,
+          "passive_flows": 0.0,
+          "search_for_yield_alternatives": 1.0,
+          "market_valuation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.93,
+        "confidence": 0.65,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.19,
+          "2": 0.66,
+          "3": 0.14
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.23
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2010 to end of 2015",
+    "aum_start_usd_bn": 128.1,
+    "aum_end_usd_bn": 336.4,
+    "aum_change_pct": 162.6,
+    "annualized_change_pct": 21.3,
+    "events": [
+      "Fed cuts rates to near zero and runs quantitative easing (QE1-QE3); investors search for yield.",
+      "Eurozone sovereign debt crisis (Greece, Ireland, Portugal, Spain, Italy); ECB 'whatever it takes' in 2012.",
+      "US credit rating downgrade by S&P; sharp market sell-off in August.",
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016)."
+    ],
+    "_y0": 2010,
+    "_y1": 2015,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.67,
+        "probabilities": {
+          "events_drove_growth": 0.74,
+          "events_drove_decline": 0.0,
+          "unclear": 0.01,
+          "growth_despite_events": 0.24,
+          "firm_specific": 0.01
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 1.0,
+        "probabilities": {
+          "acquisition": 0.0,
+          "passive_flows": 0.0,
+          "market_valuation": 0.0,
+          "regulation": 0.0,
+          "search_for_yield_alternatives": 1.0,
+          "flight_to_safety_outflows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.09,
+        "confidence": 0.58,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.15,
+          "2": 0.58,
+          "3": 0.26
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.13
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2015 to end of 2019",
+    "aum_start_usd_bn": 336.4,
+    "aum_end_usd_bn": 571.1,
+    "aum_change_pct": 69.8,
+    "annualized_change_pct": 14.1,
+    "events": [
+      "China stock crash and yuan devaluation; oil price collapse; Brexit vote (Jun 2016); Trump election (Nov 2016).",
+      "Low-volatility global equity rally; US tax cuts passed in December.",
+      "Fed rate hikes and balance-sheet runoff; US-China trade war; Q4 equity sell-off.",
+      "Fed pivots to rate cuts; strong equity and bond rally."
+    ],
+    "_y0": 2015,
+    "_y1": 2019,
+    "model": "jev-1.13.0",
+    "answers": {
+      "link_strength": {
+        "type": "score",
+        "score": 1.33,
+        "confidence": 0.59,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.62,
+          "2": 0.32,
+          "3": 0.02
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.21
+      },
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.64,
+        "probabilities": {
+          "unclear": 0.03,
+          "firm_specific": 0.19,
+          "events_drove_growth": 0.06,
+          "growth_despite_events": 0.72,
+          "events_drove_decline": 0.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 0.7,
+        "probabilities": {
+          "passive_flows": 0.0,
+          "acquisition": 0.01,
+          "search_for_yield_alternatives": 0.75,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "market_valuation": 0.24
+        }
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2019 to end of 2021",
+    "aum_start_usd_bn": 571.1,
+    "aum_end_usd_bn": 880.9,
+    "aum_change_pct": 54.2,
+    "annualized_change_pct": 24.2,
+    "events": [
+      "COVID-19 pandemic: market crash in March, then massive fiscal stimulus and Fed QE drive a fast recovery.",
+      "Stimulus-fueled boom: record equity highs, retail investing surge, record private-market fundraising."
+    ],
+    "_y0": 2019,
+    "_y1": 2021,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 1.0,
+        "probabilities": {
+          "growth_despite_events": 0.0,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.0,
+          "unclear": 0.0,
+          "events_drove_growth": 1.0
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 0.94,
+        "probabilities": {
+          "acquisition": 0.0,
+          "search_for_yield_alternatives": 0.95,
+          "market_valuation": 0.05,
+          "passive_flows": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "regulation": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 2.91,
+        "confidence": 0.91,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.07,
+          "3": 0.92
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.2
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2021 to end of 2022",
+    "aum_start_usd_bn": 880.9,
+    "aum_end_usd_bn": 974.7,
+    "aum_change_pct": 10.6,
+    "annualized_change_pct": 10.6,
+    "events": [
+      "Inflation surge, fastest Fed hiking cycle in decades, Russia invades Ukraine; stocks and bonds fall together."
+    ],
+    "_y0": 2021,
+    "_y1": 2022,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.9,
+        "probabilities": {
+          "events_drove_growth": 0.04,
+          "growth_despite_events": 0.92,
+          "events_drove_decline": 0.0,
+          "firm_specific": 0.03,
+          "unclear": 0.01
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 0.46,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.56,
+          "acquisition": 0.06,
+          "regulation": 0.0,
+          "passive_flows": 0.0,
+          "flight_to_safety_outflows": 0.02,
+          "market_valuation": 0.36
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.19,
+        "confidence": 0.61,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.1,
+          "1": 0.65,
+          "2": 0.22,
+          "3": 0.03
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.22
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2022 to end of 2023",
+    "aum_start_usd_bn": 974.7,
+    "aum_end_usd_bn": 1040.2,
+    "aum_change_pct": 6.7,
+    "annualized_change_pct": 6.7,
+    "events": [
+      "US regional bank failures (SVB, March); AI-driven tech rally; rates stay high."
+    ],
+    "_y0": 2022,
+    "_y1": 2023,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "growth_despite_events",
+        "confidence": 0.54,
+        "probabilities": {
+          "unclear": 0.13,
+          "firm_specific": 0.14,
+          "growth_despite_events": 0.64,
+          "events_drove_decline": 0.0,
+          "events_drove_growth": 0.09
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "market_valuation",
+        "confidence": 0.45,
+        "probabilities": {
+          "search_for_yield_alternatives": 0.39,
+          "acquisition": 0.04,
+          "market_valuation": 0.54,
+          "passive_flows": 0.01,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.02
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.22,
+        "confidence": 0.65,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.06,
+          "1": 0.66,
+          "2": 0.27,
+          "3": 0.01
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.25
+      }
+    }
+  },
+  {
+    "firm": "Blackstone",
+    "firm_profile": "Largest alternative asset manager: private equity, real estate, private credit, hedge fund solutions; IPO in 2007; AUM grows through fundraising and deployment into illiquid private assets.",
+    "period": "end of 2023 to end of 2024",
+    "aum_start_usd_bn": 1040.2,
+    "aum_end_usd_bn": 1127.2,
+    "aum_change_pct": 8.4,
+    "annualized_change_pct": 8.4,
+    "events": [
+      "Fed begins cutting rates; equity rally led by large tech; US presidential election."
+    ],
+    "_y0": 2023,
+    "_y1": 2024,
+    "model": "jev-1.13.0",
+    "answers": {
+      "relationship": {
+        "type": "choice",
+        "choice": "events_drove_growth",
+        "confidence": 0.37,
+        "probabilities": {
+          "events_drove_growth": 0.5,
+          "firm_specific": 0.17,
+          "unclear": 0.32,
+          "events_drove_decline": 0.0,
+          "growth_despite_events": 0.01
+        }
+      },
+      "mechanism": {
+        "type": "choice",
+        "choice": "search_for_yield_alternatives",
+        "confidence": 0.46,
+        "probabilities": {
+          "market_valuation": 0.44,
+          "search_for_yield_alternatives": 0.56,
+          "regulation": 0.0,
+          "flight_to_safety_outflows": 0.0,
+          "acquisition": 0.0,
+          "passive_flows": 0.0
+        }
+      },
+      "link_strength": {
+        "type": "score",
+        "score": 1.39,
+        "confidence": 0.56,
+        "legend": {
+          "0": "No link",
+          "1": "Weak link",
+          "2": "Moderate link",
+          "3": "Strong link"
+        },
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.57,
+          "2": 0.38,
+          "3": 0.02
+        }
+      },
+      "price_driven": {
+        "type": "noul",
+        "noul": 0.32
+      }
+    }
+  }
+]
